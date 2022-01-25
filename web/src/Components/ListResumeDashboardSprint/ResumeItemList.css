@@ -1,0 +1,13 @@
+.item-list-resume {
+  width: 100%;
+  margin: 0.35rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 2px 5px rgba(50, 50, 50, 0.2);
+}
+
+.item-list-resume p {
+  width: 100%;
+  text-align: center;
+}
