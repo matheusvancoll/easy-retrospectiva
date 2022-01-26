@@ -12,7 +12,7 @@ export default function Dashboard(props) {
 
             <div className='btn-nova-versao'>
                 <button>
-                    <a href='#'>
+                    <a href='/users'>
                         Nova versão
                     </a>
                 </button>
