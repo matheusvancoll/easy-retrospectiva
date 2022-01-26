@@ -14,16 +14,6 @@
     --z-fixed: 100;
 }
 
-.dark-mode{
-    background-color: var(--color-dark);
-    color: var(--color-white);
-}
-
-.light-mode{
-    background-color: var(--color-white);
-    color: var(--color-dark);
-}
-
 /* ===== Estilo Geral ===== */
 * {
     margin: 0;
@@ -44,6 +34,12 @@ body {
     padding-left: calc(var(--side-width-close) + 5rem);
     padding-top: calc(var(--header-height) + 1.5rem);
     transition: 0.5s;
+}
+
+.title-page{
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 

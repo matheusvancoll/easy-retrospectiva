@@ -1,0 +1,19 @@
+.item-version-row{
+    width: 100%;
+    box-shadow: 1px 2px 5px rgba(50, 50, 50, 0.2);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.item-version-row:hover{
+    background-color: rgba(50, 50, 50, 0.2);
+}
+
+.item-version-row a{
+    text-decoration: none;
+    color: black;
+}
+
+.item-version-row td{
+    padding: 0.5rem;
+}

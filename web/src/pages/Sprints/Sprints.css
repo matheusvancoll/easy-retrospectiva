@@ -1,0 +1,29 @@
+.table-sprints-manager{
+    width: 100%;
+}
+
+.table-sprints-manager th{
+    margin: 1rem;
+    line-height: 1rem;
+    padding: 0.5rem 0;
+}
+
+.btn-nova-versao button{
+    border: none;
+    margin: 1rem 0 2rem 0rem;
+}
+
+.btn-nova-versao a{
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    background-color: rgb(0, 200, 250);
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.btn-nova-versao a:hover{
+    background-color: rgb(33, 199, 41);
+}

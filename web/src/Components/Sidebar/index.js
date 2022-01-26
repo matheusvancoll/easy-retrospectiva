@@ -4,7 +4,8 @@ import './Sidebar.css'
 import logo from '../../assets/img/photo.jpeg'
 import ButtonItem from './Button'
 
-function Sidebar(props) {
+
+export default function Sidebar(props) {
     return(
         <section className="sidebar" id={props.toggleState ? "" : "responsive-sidebar"}>
             <div className="sidebar__title">
@@ -15,9 +16,9 @@ function Sidebar(props) {
             </div>
 
             <div className="sidebar__menu">
-                <ButtonItem link="/home" btnName="Início" icon="tachometer" active={true} url="#" toggleState={props.toggleState}/>
-                <ButtonItem link="/products"btnName="Versões" icon="barcode" active={false} url="#" toggleState={props.toggleState}/>
-                <ButtonItem link="/clients" btnName="Usuarios" icon="users" active={false} url="#" toggleState={props.toggleState}/>
+                <ButtonItem link="/home" btnName="Início" icon="home" active={props.home ? true : false} url="#" toggleState={props.toggleState}/>
+                <ButtonItem link="/sprints" btnName="Sprints" icon="tasks" active={props.sprints ? true : false} url="#" toggleState={props.toggleState}/>
+                <ButtonItem link="/users" btnName="Usuarios" icon="users" active={props.users ? true : false} url="#" toggleState={props.toggleState}/>
                 
                 <div className={props.toggleState ? "sidebar__item logout" : "sidebar__item logout logout-mini"}>
                     <a href='/'>
@@ -28,5 +29,3 @@ function Sidebar(props) {
         </section>
     )
 }
-
-export default Sidebar

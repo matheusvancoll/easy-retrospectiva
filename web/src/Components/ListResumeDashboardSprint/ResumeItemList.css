@@ -1,13 +1,40 @@
-.item-list-resume {
-  width: 100%;
-  margin: 0.35rem 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  box-shadow: 1px 2px 5px rgba(50, 50, 50, 0.2);
+.item-list-resume{
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.35rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 5px rgba(50, 50, 50, 0.2);
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.item-list-resume:hover{
+    background-color: rgba(50, 50, 50, 0.2);
 }
 
 .item-list-resume p {
-  width: 100%;
-  text-align: center;
+    height: 2.75rem;    
+    overflow:hidden;
+    line-height: 2.75rem;
+    text-align: center;
+}
+
+#item-type{
+    width: 20%;
+}
+
+#item-title{
+    text-align: left;
+    width: 100%;
+}
+
+#item-user{
+    width: 35%;
+}
+
+#item-status{
+    width: 30%;
 }

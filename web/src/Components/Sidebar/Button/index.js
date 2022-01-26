@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import './Button.css'
 
-function ButtonItem(props) {
+export default function ButtonItem(props) {
     return(
         <div>
             <div className={props.toggleState ? "sidebar__item" : "sidebar__item responsive"} id={props.active ? "active" : ""}>
@@ -15,5 +15,3 @@ function ButtonItem(props) {
         </div>
     )
 }
-
-export default ButtonItem
